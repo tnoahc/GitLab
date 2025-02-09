@@ -4,7 +4,7 @@ services:
     image: gitlab/gitlab-ce:latest
     container_name: gitlab
     restart: always
-    hostname: #your-url-here
+    hostname: gitlab.saracen.co.ug
     ports:
         - 2080:80
         - 2443:443
